@@ -31,6 +31,7 @@ function SiderMenu(props: any) {
       <Menu
         onClick={handleClick}
         mode="inline"
+        style={{height:'100%'}}
         defaultSelectedKeys={["/normal/home"]}
         selectedKeys={[location.pathname]}
         openKeys={openKeys}
